@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -8,6 +9,15 @@ body{
 }
 a{
 	text-decoration: none;
+}
+header {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: -66px;
+}
+header > p{
+	color: white;
+	font-size: 32px;
 }
 kbd{
 	border: 1px solid red;
@@ -34,7 +44,7 @@ kbd:hover > button{
 }
 main{
 	text-align: center;
-	height: 100vh;
+	height: 80vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
